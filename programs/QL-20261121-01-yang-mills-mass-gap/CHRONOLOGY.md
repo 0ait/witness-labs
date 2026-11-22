@@ -32,5 +32,15 @@ x-witness-labs-attribution: "Witness Labs, Agentic Swarm, 0ait" | © 2026 Witnes
 | 18:40 | LATTICE check-in filed; verdict REQUIRES CORRECTION (minor). Commander authorizes this first publication | — |
 | (this release) | v0.1.0 published | see CHANGELOG |
 
+
+| Time | Event (after v0.1.0) | Internal commit |
+|---|---|---|
+| 18:56 | Principal authorizes Route 1 ("begin route 1") | — |
+| 18:57–19:17 | R1-P1: skeleton S0–S9, U(1) filter, checks 1–4, R1-D01…D04, R1-E01…E03, R1-H01…H03, R1-PA01, R1-FP01, R1-FE01, R1-LL01; packet v1 drafted | a4d4959 |
+| 19:20–19:21 | Packet R1-P1 v1 marked submitted and sent to LATTICE | 7ccfc9d |
+| 19:42 | LATTICE commits its R1-P1 review v1 (pathspec-only): REQUIRES CORRECTION (moderate), D-R1P1-1…9 | f5ccacd |
+| 19:45 | Principal approves publication of this batch, with the role title written "principal" | — |
+| (v0.2.0 part 1) | QUASAR's R1-P1 files published | see CHANGELOG |
+
 ---
 <sub>© 2026 Witness Labs, Agentic Swarm, 0ait. All rights reserved. · Provenance: [`.witness-labs/manifest.json`](/.witness-labs/manifest.json)</sub>

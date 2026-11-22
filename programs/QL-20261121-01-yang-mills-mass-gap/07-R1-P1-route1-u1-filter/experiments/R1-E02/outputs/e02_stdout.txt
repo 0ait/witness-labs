@@ -1,0 +1,49 @@
+N  b0  b1
+2 0.04643887584 0.001817934358
+3 0.06965831375 0.004090352305
+
+steps k_*(beta) (b=2) from g0^2=2N/beta to gamma; 1-loop / 2-loop; U(1): infinite
+SU(2) gamma=0.05  beta=100      k1=     77.67 k2=     77.53
+SU(2) gamma=0.05  beta=1000     k1=   3572.65 k2=   3571.12
+SU(2) gamma=0.05  beta=10000    k1=  38522.51 k2=  38519.57
+SU(2) gamma=0.05  beta=1000000  k1=3883006.42 k2=3883000.69
+SU(2) gamma=0.1   beta=100      k1=    233.00 k2=    232.44
+SU(2) gamma=0.1   beta=1000     k1=   3727.98 k2=   3726.03
+SU(2) gamma=0.1   beta=10000    k1=  38677.84 k2=  38674.48
+SU(2) gamma=0.1   beta=1000000  k1=3883161.76 k2=3883155.60
+SU(2) gamma=0.5   beta=100      k1=    357.27 k2=    355.74
+SU(2) gamma=0.5   beta=1000     k1=   3852.25 k2=   3849.33
+SU(2) gamma=0.5   beta=10000    k1=  38802.10 k2=  38797.78
+SU(2) gamma=0.5   beta=1000000  k1=3883286.02 k2=3883278.90
+SU(2) gamma=1.0   beta=100      k1=    372.80 k2=    370.86
+SU(2) gamma=1.0   beta=1000     k1=   3867.78 k2=   3864.45
+SU(2) gamma=1.0   beta=10000    k1=  38817.64 k2=  38812.90
+SU(2) gamma=1.0   beta=1000000  k1=3883301.56 k2=3883294.02
+SU(3) gamma=0.05  beta=1000     k1=   1518.81 k2=   1517.52
+SU(3) gamma=0.05  beta=10000    k1=  17052.08 k2=  17049.39
+SU(3) gamma=0.05  beta=1000000  k1=1725711.60 k2=1725706.11
+SU(3) gamma=0.1   beta=100      k1=     69.04 k2=     68.73
+SU(3) gamma=0.1   beta=1000     k1=   1622.36 k2=   1620.66
+SU(3) gamma=0.1   beta=10000    k1=  17155.63 k2=  17152.52
+SU(3) gamma=0.1   beta=1000000  k1=1725815.15 k2=1725809.24
+SU(3) gamma=0.5   beta=100      k1=    151.88 k2=    150.61
+SU(3) gamma=0.5   beta=1000     k1=   1705.21 k2=   1702.54
+SU(3) gamma=0.5   beta=10000    k1=  17238.48 k2=  17234.40
+SU(3) gamma=0.5   beta=1000000  k1=1725898.00 k2=1725891.12
+SU(3) gamma=1.0   beta=100      k1=    162.24 k2=    160.56
+SU(3) gamma=1.0   beta=1000     k1=   1715.56 k2=   1712.49
+SU(3) gamma=1.0   beta=10000    k1=  17248.83 k2=  17244.36
+SU(3) gamma=1.0   beta=1000000  k1=1725908.35 k2=1725901.07
+
+window: steps from g^2=gamma to the perturbative pole (b=2); strong-coupling threshold g^2 > 96/N (SZZ, converted)
+SU(2) gamma=0.05  steps to pole: 1-loop    310.67  2-loop    306.87   (strong threshold g^2>48)
+SU(2) gamma=0.1   steps to pole: 1-loop    155.33  2-loop    151.96   (strong threshold g^2>48)
+SU(2) gamma=0.5   steps to pole: 1-loop     31.07  2-loop     28.66   (strong threshold g^2>48)
+SU(2) gamma=1.0   steps to pole: 1-loop     15.53  2-loop     13.54   (strong threshold g^2>48)
+SU(3) gamma=0.05  steps to pole: 1-loop    207.11  2-loop    203.56   (strong threshold g^2>32)
+SU(3) gamma=0.1   steps to pole: 1-loop    103.56  2-loop    100.43   (strong threshold g^2>32)
+SU(3) gamma=0.5   steps to pole: 1-loop     20.71  2-loop     18.55   (strong threshold g^2>32)
+SU(3) gamma=1.0   steps to pole: 1-loop     10.36  2-loop      8.60   (strong threshold g^2>32)
+
+U(1): b0=b1=0 => d(1/g^2)/dln l = 0 perturbatively; k_* = inf for every gamma > g0^2 (non-perturbative monopole
+corrections ~exp(-c/g^2) are not captured).

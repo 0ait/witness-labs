@@ -25,6 +25,10 @@ None of these affects the interpretation or reproducibility of any technical res
 | 8 | `docs/constitution.md` | Commander's personal name (line 7) | `REDACTED-3: personal name` | 1 | personal information |
 | 9 | `docs/constitution.md` | local absolute path (line 7) | `REDACTED-4: local workspace path` | 1 | internal infrastructure detail |
 | 10 | `docs/constitution.md` | local absolute path "/workspace/quasar-lattice/" (lines 71, 85) | `<internal-lab-root>/` | 2 | internal machine path; no effect on content |
+| 11 | `programs/QL-20261121-01-yang-mills-mass-gap/07-R1-P1-route1-u1-filter/R1-P1_report.md` | previous role title of the human principal (v0.2.0 part 1) | `"principal" ("Principal" where capitalised)` | 3 | role-title change approved by the principal for this batch (2026-11-21 19:45 CT); no effect on technical content |
+| 12 | `programs/QL-20261121-01-yang-mills-mass-gap/07-R1-P1-route1-u1-filter/derivations/R1-D01_skeleton_and_U1_filter.md` | previous role title of the human principal (v0.2.0 part 1) | `"principal" ("Principal" where capitalised)` | 1 | role-title change approved by the principal for this batch (2026-11-21 19:45 CT); no effect on technical content |
+| 13 | `programs/QL-20261121-01-yang-mills-mass-gap/07-R1-P1-route1-u1-filter/submission-packet-R1-P1-v1.md` | previous role title of the human principal (v0.2.0 part 1) | `"principal" ("Principal" where capitalised)` | 2 | role-title change approved by the principal for this batch (2026-11-21 19:45 CT); no effect on technical content |
+| 14 | `programs/QL-20261121-01-yang-mills-mass-gap/07-R1-P1-route1-u1-filter/sources_S-129_S-135.csv` | column local_path (internal file locations / archive notes) (v0.2.0 part 1) | `column internal_archive_copy (yes/no)` | 7 | internal paths; third-party files are not redistributed. URLs/DOIs and sha256 retained |
 
 Notes:
 - In `docs/constitution.md` each redaction is marked inline as `[REDACTED-n: …]`. The internal original is unchanged.

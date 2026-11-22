@@ -101,5 +101,68 @@ Purpose: confirm that adding the one-line attribution comment to each script did
 - **E03:** all 264 result fields agree; the largest relative difference, 3.5e−5, is in tunnelling splittings of size ~1e−10 obtained as differences of O(1) eigenvalues (absolute difference ~4e−15, i.e. double-precision round-off); printed values identical to 4 significant figures; ED-vs-free-fermion diagnostics differ only at the 1e−14 level.
 - Archived outputs were **not** overwritten; the published outputs are the original runs.
 
+## Route 1 phase 1 experiments (added in v0.2.0 part 1)
+Run 2026-11-21 on the same machine and Python stack as above; R1-E01 ran single-threaded (`nproc 1`, BLAS threads = 1; see its `ENV.txt`).
+
+## R1-E01 — 4D U(1) vs 4D SU(2) Wilson lattice gauge theory on small lattices
+| Field | Value |
+|---|---|
+| Task ID | QL-20261121-01 / R1-P1 / E01 |
+| Date and time (CT) | 2026-11-21; runs 19:03–19:12; committed a4d4959 19:17 |
+| Domain | Lattice gauge theory (4D, U(1) and SU(2)); Monte Carlo |
+| Objective | Numerical contrast behind the U(1) filter: U(1) transition near β≈1.01 vs smooth SU(2) crossover |
+| Route | Route 1 phase 1 (U(1) go/no-go filter) |
+| Contributing agents | QUASAR; LATTICE independent Metropolis spot-check (agrees within errors at SU(2) β=2.5, U(1) β=0.9) |
+| Intent | Qualitative evidence only, for R1-D01 §3–4 |
+| Importance | Supports "effective coupling above γ does not by itself force strong-coupling behaviour" (U(1) non-confining at g₀²≈1) |
+| Methodology | Checkerboard heat bath (von Mises for U(1); Kennedy–Pendleton for SU(2)); L=6, 8; hot and cold starts; plaquette, susceptibility, Wilson loops, Creutz ratio χ(2,2); 10-block jackknife |
+| Results | U(1) L=8: P 0.5856 → 0.6551 between β=1.00 and 1.01 (max dP/dβ 6.87), χ(2,2) 0.353 → 0.166; SU(2) smooth (max dP/dβ ≈0.36). CPU ≈8.5 min |
+| Outcome classification | Successful (numerical evidence only) |
+| Key findings | Sharp U(1) transition near β≈1.0; no comparable SU(2) feature |
+| Limitations | Small lattices, no finite-size scaling, τ_int not measured. LATTICE D-R1P1-6/7: masslessness was not measured; errors are underestimated in/near the Coulomb phase |
+| Next steps | Wording and error-bar corrections in v2 (pending authorization) |
+| Links | [`R1-E01/`](../programs/QL-20261121-01-yang-mills-mass-gap/07-R1-P1-route1-u1-filter/experiments/R1-E01/) · R1-D01, R1-LL01 |
+
+## R1-E02 — perturbative running-coupling bookkeeping
+| Field | Value |
+|---|---|
+| Task ID | QL-20261121-01 / R1-P1 / E02 |
+| Date and time (CT) | 2026-11-21 19:07; committed a4d4959 19:17 |
+| Domain | Renormalization group; exact arithmetic (mpmath, 30 digits) |
+| Objective | RG steps to reach the crossover coupling γ, and the window γ → pole |
+| Route | Route 1 phase 1 (S4, check 4) |
+| Contributing agents | QUASAR; LATTICE checked the bookkeeping (exact) |
+| Intent | Quantify where asymptotic freedom enters (S4) |
+| Importance | Shows k_*(β) is finite and linear in β for SU(2), infinite for U(1) |
+| Methodology | 1- and 2-loop flow ODE, block factor b=2, Wilson normalization g₀² = 2N/β |
+| Results | SU(2): 3.883 steps per unit β; γ→pole window 152 steps at γ=0.1 (illustrative). U(1): b₀=b₁=0 |
+| Outcome classification | Successful (Heuristic model; exact arithmetic) |
+| Key findings | Crossover attainment is exactly where asymptotic freedom is used |
+| Limitations | Perturbative; γ illustrative; normalization ambiguity (D-R1P1-4) |
+| Next steps | Fix one lab-wide effective-action normalization (v2) |
+| Links | [`R1-E02/`](../programs/QL-20261121-01-yang-mills-mass-gap/07-R1-P1-route1-u1-filter/experiments/R1-E02/) · R1-D03, R1-D04 |
+
+## R1-E03 — block-average maps and time reflection θ
+| Field | Value |
+|---|---|
+| Task ID | QL-20261121-01 / R1-P1 / E03 (E03 U(1), E03b SU(2)) |
+| Date and time (CT) | 2026-11-21 19:13–19:16; committed a4d4959 19:17 |
+| Domain | Lattice gauge theory (2D, 12×12, 3×3 blocks); exact finite configurations |
+| Objective | Does gauge-covariant block averaging intertwine θ (check 2)? |
+| Route | Route 1 phase 1 (reflection positivity of the coarse measure) |
+| Contributing agents | QUASAR; LATTICE second implementation (COMPUTATIONALLY REPRODUCED for QUASAR's contour family) |
+| Intent | Test reflection-compatibility of the block map |
+| Importance | Determines whether coarse measures inherit reflection positivity |
+| Methodology | Corner (space-first contours) vs centre-symmetric averaging; U(1) and SU(2) random configurations at several spreads σ |
+| Results | SU(2) corner map mismatch 6.8e−3 / 1.0e−1 / 6.0e−1 at σ = 0.05 / 0.15 / 0.3; centre map ≤ ~1e−15. U(1): both maps pass (abelian test degenerate; see R1-FE01) |
+| Outcome classification | Successful (computationally verified finite result) |
+| Key findings | Corner map with space-first contours fails θ; centre map passes |
+| Limitations | LATTICE D-R1P1-1 (CE-005): with time-first contours the corner map also passes; the failure is a contour artifact, not general. 2D only |
+| Next steps | Restate Prop. 4 in v2 (pending authorization) |
+| Links | [`R1-E03/`](../programs/QL-20261121-01-yang-mills-mass-gap/07-R1-P1-route1-u1-filter/experiments/R1-E03/) · R1-D02, R1-H03 · failed experiment: R1-FE01 |
+
+### Public-tree re-run (v0.2.0 part 1 publication check, 2026-11-21)
+R1-E02 and R1-E03 (both scripts) were copied from this public tree to a scratch directory and run with the pinned environment: all exited 0; stdout identical to the archived stdout; every JSON result field identical except `script_sha256`, which differs as expected because of the added attribution line. R1-E01 (≈8.5 CPU-min) was not re-run. Archived outputs were not overwritten.
+
 ---
 <sub>© 2026 Witness Labs, Agentic Swarm, 0ait. All rights reserved. · Provenance: [`.witness-labs/manifest.json`](/.witness-labs/manifest.json)</sub>

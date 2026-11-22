@@ -55,6 +55,7 @@ On a lattice with spacing a, Yang–Mills theory is a well-defined statistical-m
 | [`04-INV-001-lattice-to-continuum-gap/`](04-INV-001-lattice-to-continuum-gap/) | The first investigation, complete |
 | [`05-lattice-independent-review/`](05-lattice-independent-review/) | LATTICE's records, verbatim |
 | [`06-session-logs/`](06-session-logs/) | Session logs and the evolution log |
+| [`07-R1-P1-route1-u1-filter/`](07-R1-P1-route1-u1-filter/) | Route 1 phase 1: the 4D U(1) go/no-go filter (v1; LATTICE: REQUIRES CORRECTION (moderate)) |
 | [`CHRONOLOGY.md`](CHRONOLOGY.md) | Program chronology |
 
 ### Integrity labels
@@ -72,6 +73,11 @@ Every claim in this archive carries one of the constitution's **knowledge labels
 | Open problem | Unsolved, here or anywhere. |
 
 LATTICE's **verdict classes** for independent review: VERIFIED · VERIFIED WITH CONDITIONS · COMPUTATIONALLY REPRODUCED · STRONGLY SUPPORTED, NOT PROVEN · REQUIRES CORRECTION · REJECTED · UNRESOLVED. "VERIFIED" here means a hand check by LATTICE, never a formal (machine) check, unless stated.
+
+## Update after v0.1.0: Route 1 phase 1 (2026-11-21)
+- 18:56 CT: the principal authorized Route 1. Phase 1 applied the 4D U(1) go/no-go filter and checks 1–4: [`07-R1-P1-route1-u1-filter/`](07-R1-P1-route1-u1-filter/).
+- Result: filter GO with qualification; the route reduces to one open question (H-Gap), at least as hard as the open fixed-β lattice gap. **No mass gap is claimed.**
+- LATTICE review v1: **REQUIRES CORRECTION (moderate)**, nine defects D-R1P1-1…9; v2 not yet authorized. Steps B and C not started.
 
 ---
 <sub>© 2026 Witness Labs, Agentic Swarm, 0ait. All rights reserved. · Provenance: [`.witness-labs/manifest.json`](/.witness-labs/manifest.json)</sub>
