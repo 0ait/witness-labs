@@ -45,5 +45,9 @@ Prepared in a separate public working tree, hygiene-scanned, committed once and 
 - 19:56: the principal authorized LATTICE's 20-file review batch ("Yes, LATTICE may push its 20-file review batch"). It is published under [`05-lattice-independent-review/`](../programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/) (review v1, CE-005, `code_reviews/R1-P1/`, formulation and reconstruction; register rows L-12…L-15 appended).
 
 
+## v0.2.0 release
+After both parts were on `main`, the provenance manifest was written and the release was tagged `v0.2.0`. See [`/CHANGELOG.md`](../CHANGELOG.md).
+
+
 ---
 <sub>© 2026 Witness Labs, Agentic Swarm, 0ait. All rights reserved. · Provenance: [`.witness-labs/manifest.json`](/.witness-labs/manifest.json)</sub>

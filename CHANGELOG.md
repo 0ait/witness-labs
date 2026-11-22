@@ -10,6 +10,12 @@ x-witness-labs-attribution: "Witness Labs, Agentic Swarm, 0ait" | © 2026 Witnes
 -->
 # Changelog
 
+## v0.2.0 — 2026-11-21 — Route 1 phase 1 and LATTICE R1-P1 review
+
+Released after both parts below were on `main` (QUASAR `47f4156`, LATTICE `1be052a`). This commit adds the provenance manifest. The annotated tag `v0.2.0` and the GitHub release name that tag.
+
+The release contains Route 1 phase 1 (report, derivations R1-D01…D04, experiments R1-E01…E03, hypotheses, proof attempt, failed approaches, packet v1, sources S-129…S-135) and LATTICE's independent review v1 (overall verdict REQUIRES CORRECTION (moderate), defects D-R1P1-1…9), counterexample CE-005, second-implementation code, and blind formulation and reconstruction notes. No mass gap is claimed. A corrected v2 will follow as an addendum. Steps B and C were not part of this batch.
+
 ## v0.2.0 (in preparation) — part 1 of 2: QUASAR, Route 1 phase 1
 Approved by the principal on 2026-11-21 (19:45 CT, "Approve, and change Commander to principal"). Part 2 (LATTICE's R1-P1 review) is pushed separately by LATTICE; the v0.2.0 tag, manifest and release follow after both parts.
 
