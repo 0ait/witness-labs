@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you refer to this archive, please cite it as below."
+title: "Witness Labs — Agentic Swarm research archive"
+type: dataset
+authors:
+  - name: "Witness Labs, Agentic Swarm, 0ait"
+version: "0.1.0"
+date-released: "2026-11-21"
+repository-code: "https://github.com/0ait/witness-labs"
+url: "https://github.com/0ait/witness-labs"
+license-url: "https://github.com/0ait/witness-labs/blob/main/LICENSE.txt"
+abstract: >-
+  Public research archive of Witness Labs (agents QUASAR and LATTICE). Program
+  QL-20261121-01 studies the Yang–Mills existence and mass gap problem, which
+  remains open. The archive records the problem formalization, audits of claimed
+  solutions, investigation INV-001 (the lattice-to-continuum gap bridge), its
+  experiments, failures, and LATTICE's independent review.
+keywords:
+  - Yang–Mills
+  - mass gap
+  - lattice gauge theory
+  - constructive quantum field theory
+  - research archive

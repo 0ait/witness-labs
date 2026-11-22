@@ -1,0 +1,35 @@
+'YangMills.JointExistence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMills.jointExistence' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+JointExistence : Prop
+def YangMills.JointExistence : Prop :=
+∀ (g : GaugeGroup),
+  g.IsSimple → ∃ C, WilsonRegularity C ∧ ∀ (p : ℕ → ℕ), StrictMono p → ∃ q, StrictMono q ∧ ∃ T, T.Properties (p ∘ q)
+def YangMills.GaugeGroup.IsSimple : GaugeGroup → Prop :=
+fun gauge =>
+  (∃ X ∈ gauge.lieAlgebra, ∃ Y ∈ gauge.lieAlgebra, X * Y - Y * X ≠ 0) ∧
+    ∀ ideal ≤ gauge.lieAlgebra,
+      (∀ X ∈ gauge.lieAlgebra, ∀ Y ∈ ideal, X * Y - Y * X ∈ ideal) → ideal = ⊥ ∨ ideal = gauge.lieAlgebra
+structure YangMills.WightmanTheory.W0 {H : YangMills.HilbertSpace} {Labels : FieldLabels}
+  (theory : WightmanTheory H Labels) : Prop
+number of parameters: 3
+fields:
+  YangMills.WightmanTheory.W0.spectralRepresentation : ∀ (state : H.carrier) (momentum : Spacetime),
+      MeasureTheory.charFun (theory.energyMomentum.diagonal state) momentum =
+        inner ℂ state ((theory.translations.operator momentum) state)
+  YangMills.WightmanTheory.W0.positiveEnergy : theory.energyMomentum.projection forwardConeᶜ = 0
+  YangMills.WightmanTheory.W0.uniqueVacuum : ∀ (state : H.carrier),
+      (∀ (x : Spacetime), (theory.translations.operator x) state = state) →
+        ∃ scalar, scalar • ↑theory.fields.vacuum = state
+constructor:
+  YangMills.WightmanTheory.W0.mk {H : YangMills.HilbertSpace} {Labels : FieldLabels} {theory : WightmanTheory H Labels}
+    (spectralRepresentation :
+      ∀ (state : H.carrier) (momentum : Spacetime),
+        MeasureTheory.charFun (theory.energyMomentum.diagonal state) momentum =
+          inner ℂ state ((theory.translations.operator momentum) state))
+    (positiveEnergy : theory.energyMomentum.projection forwardConeᶜ = 0)
+    (uniqueVacuum :
+      ∀ (state : H.carrier),
+        (∀ (x : Spacetime), (theory.translations.operator x) state = state) →
+          ∃ scalar, scalar • ↑theory.fields.vacuum = state) :
+    theory.W0
+@HasMassGap : {H : YangMills.HilbertSpace} → {L : FieldLabels} → WightmanTheory H L → Prop

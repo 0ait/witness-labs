@@ -1,0 +1,589 @@
+{
+ "manifest_version": 1,
+ "repository": "https://github.com/0ait/witness-labs",
+ "release": "v0.1.0",
+ "commit_time_utc": "2026-11-22T00:50:53Z",
+ "attribution": "Witness Labs, Agentic Swarm, 0ait",
+ "copyright": "© 2026 Witness Labs, Agentic Swarm, 0ait. All rights reserved.",
+ "program": "QL-20261121-01 (Yang–Mills existence and mass gap; open problem)",
+ "statement": "This manifest is a provenance record: the SHA-256 of every published file in this release (excluding this manifest itself). It is NOT tamper-proof: anyone who can modify the repository can modify this file. For verification, compare against the sha256 of this manifest given in the v0.1.0 GitHub release notes and the git commit history.",
+ "hash_algorithm": "sha256",
+ "file_count": 115,
+ "files": [
+  {
+   "path": "ATTRIBUTION.md",
+   "sha256": "8264350b5abf3be797a452207d937b44605e7ef2fb829c57fe470700a430dfcd",
+   "bytes": 2217
+  },
+  {
+   "path": "CHANGELOG.md",
+   "sha256": "32d02695757a9beabcc06ad34defe2f5bc8f998266552cbcecefd1d68bf60f36",
+   "bytes": 1822
+  },
+  {
+   "path": "CITATION.cff",
+   "sha256": "e4ecae0f19470c5f69f4275d94a14a58ad64ae0c86b58b81444cfcd35d89415a",
+   "bytes": 944
+  },
+  {
+   "path": "LICENSE.txt",
+   "sha256": "9aa7bd42e1d0dc5b5f797b6caab3a0839236d9dc4a898af354ff24b1d8a2decf",
+   "bytes": 1253
+  },
+  {
+   "path": "README.md",
+   "sha256": "fc44ef64b359587847f22018dbddd0465fc43f5b6cedf19e521f2d5573ba2ff7",
+   "bytes": 5946
+  },
+  {
+   "path": "REDACTIONS.md",
+   "sha256": "59a4808af221790405bbc95a86e6b16d26e05a994c5b1eb8e2e240149c4f174b",
+   "bytes": 5805
+  },
+  {
+   "path": "VERSIONING.md",
+   "sha256": "61aa93536bd98fec8d94ae5b0700ea82b8b71f0c838c226c9b0857d5e1cd8b7a",
+   "bytes": 1733
+  },
+  {
+   "path": "chronology/TIMELINE.md",
+   "sha256": "74b1c04cf22be716b7ae7bac805b233a875255dba2efd3db9be17d1e524458da",
+   "bytes": 4027
+  },
+  {
+   "path": "docs/agents.md",
+   "sha256": "74d15251a168c35ee4783a0ec7e055f130e23bb5d3d95eb95d15080724384ce5",
+   "bytes": 1969
+  },
+  {
+   "path": "docs/constitution.md",
+   "sha256": "07cbf2bc39f59f8a7c332d86676ddb01183d56754cd1ef37ef5daafa9902f26d",
+   "bytes": 29007
+  },
+  {
+   "path": "docs/glossary.md",
+   "sha256": "121c4489d3c986b5ba903cce741c7179a21749dde0756ca73d11fd35839b2b94",
+   "bytes": 3494
+  },
+  {
+   "path": "docs/integrity-standards.md",
+   "sha256": "d81b4e8ddb9180c0fb683b602f2683ce3ea13ef34942bfd760d0c1e852b318ea",
+   "bytes": 2172
+  },
+  {
+   "path": "docs/lab-architecture.md",
+   "sha256": "0639eb243b4a181cb5d581bb419adc9dad078e2964f4acdf8675cf7461abb410",
+   "bytes": 2794
+  },
+  {
+   "path": "docs/mission-charter.md",
+   "sha256": "d392d3f6a94abc32fc998e535f02fc551f186dcc3651ce849ac10ba7906fb2a4",
+   "bytes": 87925
+  },
+  {
+   "path": "docs/mission.md",
+   "sha256": "a960200257d8b389b3d34405e6d21482dec58de0a501f793095b856343f07ffd",
+   "bytes": 1854
+  },
+  {
+   "path": "docs/overview.md",
+   "sha256": "1c2184d392d7115f2ac8f4883fb3a2020c966cc547a8fad2f93a63c27fa63cc4",
+   "bytes": 3162
+  },
+  {
+   "path": "docs/publication-protocol.md",
+   "sha256": "1884286efcae677af65d7f6bf45b68dbc20ac30e5ca1e635c84d33106dbc6676",
+   "bytes": 2438
+  },
+  {
+   "path": "environment/README.md",
+   "sha256": "68dd89f1ae589f2a50bbe7e698bd29b26ace733ac64796994c9741d23a371f9b",
+   "bytes": 1376
+  },
+  {
+   "path": "environment/qenv-freeze-2026-11-21.txt",
+   "sha256": "d84bde1dc6a04fbe13728d70b6ed680685bd7f07c52c2d8fa60f23439cac9a01",
+   "bytes": 3404
+  },
+  {
+   "path": "environment/sage-env-2026-11-21.json",
+   "sha256": "c52d786021c986a9d24b40ae5b6b493020b0ed811f9caf0287ec2014ad9b7d50",
+   "bytes": 236601
+  },
+  {
+   "path": "experiments/REGISTRY.md",
+   "sha256": "e7a9b44a554caad44e9acc68e3f3679b23d3f5b137f9d550a86e2b45c85889a2",
+   "bytes": 10365
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/00-official-problem/README.md",
+   "sha256": "5d6e73eb95bd690b51745c44086563e72f2593d92eeb37821198de0aebc657e4",
+   "bytes": 3661
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/01-formalization/README.md",
+   "sha256": "29c6cf815b0dad605c5a98c8ea5fcdba3dd34d5be7d9086415c44c88d1157f7e",
+   "bytes": 1799
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/01-formalization/group_scope.md",
+   "sha256": "5ca7967724073dc2cd3d67b32f30e20eaec13b95d87fd703bb92754916f282aa",
+   "bytes": 5357
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/01-formalization/mass_gap_definition.md",
+   "sha256": "90be8ab1012a0648e28656f848617bdeabf1260bf85c8d83ecc141747dd4c0de",
+   "bytes": 5132
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/01-formalization/official_definitions.md",
+   "sha256": "1ce6f1bc53121007c4524d10c2915d6994316301f12c01a396137bbb3e4fbc15",
+   "bytes": 5622
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/01-formalization/proof_obligations.md",
+   "sha256": "3ea39bbc88ae9b5d8d83c4281c9fb33c3173a7a8b38aebaa1a285289fe0d91e3",
+   "bytes": 11568
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/01-formalization/required_axioms.md",
+   "sha256": "2f3a7732909eacf0ab6d59044bc443e131a92d65a941ebde75365d38638bdf87",
+   "bytes": 5615
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/01-formalization/theorem_specification.md",
+   "sha256": "17ae1bd28a65ae8861d3f5f62b51abef079fdea410ed9d808ce5759442c0c17e",
+   "bytes": 4980
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/02-literature/INV-001_literature.md",
+   "sha256": "d34b72f64bc4b2abe11c6b481b06ac41f5b6b0493d0deabe9286e45b310608c8",
+   "bytes": 21580
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/02-literature/README.md",
+   "sha256": "00ab5edea3d8359a9c041a51cde2ba50e24ef9165ccb9c280c121e0d0e598d5c",
+   "bytes": 1909
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/02-literature/source_register.csv",
+   "sha256": "407d6a6e12030ffcca3a7a1d3dbae008f850350a191bb36c26eeeca132be29f0",
+   "bytes": 18730
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/README.md",
+   "sha256": "ebcf625ce67e2e6932201311c34ed25ea060f837f2cb8c2bab6f5807d6b6ac12",
+   "bytes": 2754
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/extracted-theorem-statements.md",
+   "sha256": "17243c5649552de1ddb213dc6b997033441247a76f5be3ff4ccf5d3e0bd93906",
+   "bytes": 3667
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/independently-claimed-solutions/README.md",
+   "sha256": "9c300d1e50f36c8e1b1d8b8444bac63c1ad8ae29094580cdc416936c6bdd2082",
+   "bytes": 3508
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/independently-claimed-solutions/croft-adams-medium-2026.md",
+   "sha256": "a474780b3990b94d2732a7035dc9a7d3d7a52dab32cb20750aa41a502166c349",
+   "bytes": 2129
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/independently-claimed-solutions/jacobsen-2025-arxiv-2506.00284.md",
+   "sha256": "8a470c32d39f74d305bcb04f15a0d5230619224cc450e5441dbdc3cda8010552",
+   "bytes": 2594
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/independently-claimed-solutions/nye-2025-ijt-quantum-information.md",
+   "sha256": "278a105499190146b99d49837cfc4ef003f0b560c86daf52dbdddb3e2063877d",
+   "bytes": 3739
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/independently-claimed-solutions/portela-moura-filho-academia.md",
+   "sha256": "2a189d3c920ebf5938443887a52756ec9d5923677461eaca43f7265b66549801",
+   "bytes": 1950
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/independently-claimed-solutions/umpolungfish-yang-mills-lean4.md",
+   "sha256": "531a46a4f78ce7d34b7c794a1a677e03eaafa3e3d24d5a9229bba23b407b1d52",
+   "bytes": 3219
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/independently-claimed-solutions/wilson-ssrn-4819820.md",
+   "sha256": "5ca1b06f15bd86fdb4b00d56a1b47841a07622fb79907ac0ed4444c2c55c96f7",
+   "bytes": 1054
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/openai_2026_existence_audit.md",
+   "sha256": "fc01441e11d372c5e08b8e72d20dd2a238371bf06d850abca366744a19e9d4f7",
+   "bytes": 19124
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/verification-logs/2026-11-21-AuditCheck.lean",
+   "sha256": "ad36f24fd4e6ea848e86c538f5574f69e6fa778b199e70d1a7a7a72829ff0cec",
+   "bytes": 563
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/verification-logs/2026-11-21-openai-ym-print-axioms.log",
+   "sha256": "9b0c44f5ce63b85efe660ee454bf3c8d06de33ac6a0f9811bd1ac9148400ed1f",
+   "bytes": 2209
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/verification-logs/2026-11-21-openai-ym-reference-build.log",
+   "sha256": "becd1500d45b7a36fac77799bfd8f60ac8a4a1835db787c48b9bcb0543b68d8c",
+   "bytes": 765
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/INV-001_formulation.md",
+   "sha256": "3536a56002c88b57cf5be89f207ebc16fc385ae08385715a1c55dd3e7af8e0e1",
+   "bytes": 7581
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/INV-001_report.md",
+   "sha256": "e8f2cc485fa783037b3e8791086eaec2104592f06df39b5cc272d9faed723dc4",
+   "bytes": 15725
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/INV-001_ws04_pointer.md",
+   "sha256": "14255d01358722e94633308f0922eff83e55debaecfbfa4a39d75f1a5086036f",
+   "bytes": 1196
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/README.md",
+   "sha256": "c8b354037eaf0f1c5880c4ba2498c84bdc944a8de748284fd51deb93acba02f1",
+   "bytes": 6853
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/derivations/INV001-D01.md",
+   "sha256": "74ac08484e0322cdc1c9b1084ec025fa38853e952dcad852529e0e5116d3fab5",
+   "bytes": 7235
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/derivations/INV001-D02.md",
+   "sha256": "d483822d9bb8d5a719e1182390180477fd04d59eafad94ac6a56491cfea26ece",
+   "bytes": 6040
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/derivations/INV001-D03.md",
+   "sha256": "cbe7b9a754769b87618054d36c6012bd77ed78d1a999b3cc77961e3a718d5047",
+   "bytes": 4681
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/derivations/INV001-D04.md",
+   "sha256": "b7c4457aa372d43ef7cd5495071dd64913432fcc84206e887c47124fcf62bd00",
+   "bytes": 4996
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/derivations/INV001-D05.md",
+   "sha256": "e1370a0d9ef95a39762f675a35b4fe4e45f0da24c2c82fe741ea8f2cd1888e28",
+   "bytes": 2876
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/derivations/INV001-D06.md",
+   "sha256": "a454ce5c57a29bbfc28a6777e20dc66f866e7cfdb2f66c07574c9fcc9acf4054",
+   "bytes": 3236
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/derivations/INV001-D07.md",
+   "sha256": "7e642758ae2676179d3d93167caea4624f7e809a24d45c09b540c828f0aeb9d9",
+   "bytes": 3109
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/derivations/INV001-D08.md",
+   "sha256": "d7a5777a6afecf9c5d3d7660a331b4c79e0a0a6d0d493f2631c7ba256d56d2d7",
+   "bytes": 6401
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E01/ENV.txt",
+   "sha256": "9bf45e44863117b3217513acd9916a44167a42277d1e3ac35e66876f7430bd49",
+   "bytes": 107
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E01/RUN.md",
+   "sha256": "91bb9de7e3d8fac12f61b2e2738f3fbf0916c0bba16240b8a84d03ad6321f753",
+   "bytes": 5935
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E01/e01_2d_wilson.py",
+   "sha256": "02d28418d02f2964285d084f3746c224f037ec5ba23239eaee1a761e4fc2d3f3",
+   "bytes": 6794
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E01/failed_runs/RUN1_NOTE.md",
+   "sha256": "69d8e6b06c615a390e6c1d28fb63724a5fef0e7fd2c7c137f405de8f20bab59f",
+   "bytes": 1286
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E01/failed_runs/e01_2d_wilson_run1_mpmath3Dquad.py",
+   "sha256": "5ab87f9afaab12846051b936925e7c07cd61883c0d4cc115e090bf42e67c901c",
+   "bytes": 6762
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E01/outputs/SHA256SUMS.txt",
+   "sha256": "9652abd6fd1bbaf6a731372f3e697f8d88c5126bea4ff059a8f4b950c179eb09",
+   "bytes": 263
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E01/outputs/e01_results.json",
+   "sha256": "183e86b57e13bdb3ec00e48d49531d95ae94577f4287bfac94532a8c31124a99",
+   "bytes": 14197
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E01/outputs/e01_stdout.txt",
+   "sha256": "688ceae7b33560a5e70d3af3f1caf4c6fb2d7600b6571693569e75c6580aa1bc",
+   "bytes": 6649
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E02/ENV.txt",
+   "sha256": "9bf45e44863117b3217513acd9916a44167a42277d1e3ac35e66876f7430bd49",
+   "bytes": 107
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E02/RUN.md",
+   "sha256": "b66f8640b5952cf160532eaa9b0e2342a3242da1168239de3e9bca11d31beb34",
+   "bytes": 4960
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E02/e02_ks_hamiltonian.py",
+   "sha256": "7d5fe12e898033bea7fcdaa2aced295d8f72d72762dac53f1ea39a958adc2894",
+   "bytes": 6778
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E02/e02b_ladder_weak.py",
+   "sha256": "1ce373b893dc25e6b55ced4130ed2a91b8276252c2f88b31040a561ce142de10",
+   "bytes": 1024
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E02/outputs/SHA256SUMS.txt",
+   "sha256": "2831a4e3599158d2b69fd5ac5e0d6fd3a53c80d2c58a43bebaedf60ead46fa9c",
+   "bytes": 536
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E02/outputs/e02_results.json",
+   "sha256": "4b04bfa0de51d3461949cb606bf010296b8f2f11ebf90da936a6ea627d106b2e",
+   "bytes": 11643
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E02/outputs/e02_stdout.txt",
+   "sha256": "83dee9f6c2caaf89e316556463418b25c5b9b7bb6f8bd9c4f3904e01f233f885",
+   "bytes": 8011
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E02/outputs/e02b_results.json",
+   "sha256": "45e7f7ec8a8bb44f81979b442bb56b646a6db34b85b9616bf792f1b7227f6cec",
+   "bytes": 2789
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E02/outputs/e02b_stdout.txt",
+   "sha256": "c0c7eb8ada15cfd7c99f431397910005c1ae2b66c47c8118277e21121e0e1523",
+   "bytes": 882
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E03/ENV.txt",
+   "sha256": "9bf45e44863117b3217513acd9916a44167a42277d1e3ac35e66876f7430bd49",
+   "bytes": 107
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E03/RUN.md",
+   "sha256": "846d5d7f9e5b6d5ec2bd9d909965116a89e8cb60b78341b13e08dee6de0c0219",
+   "bytes": 2938
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E03/e03_tunneling.py",
+   "sha256": "fd2411b05c395d6a6d46560fdc557270d74ab768ea83d452c0a1e9fc0f2ba973",
+   "bytes": 3823
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E03/outputs/SHA256SUMS.txt",
+   "sha256": "7c06336a9aa77e7cbe6cbec98d58f6e21263da34d2a6d4cee83cfe03e581f822",
+   "bytes": 263
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E03/outputs/e03_results.json",
+   "sha256": "dda82b9235c42798b7c426d9c1800a54ffbd767eb83c1b518116fd6e759b81fb",
+   "bytes": 11598
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E03/outputs/e03_stdout.txt",
+   "sha256": "0fd08d9da26c8988c3309e376ab3d2c60ee030cc6a85568680a90ea1cfc4df1f",
+   "bytes": 2076
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E04/ENV.txt",
+   "sha256": "ecff1548cc8d620074342639ad05d3fb9194e97d2054a1436ec6cb3265ded1c2",
+   "bytes": 107
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E04/RUN.md",
+   "sha256": "fa05c6f84b331a1c339f61ddb021b730e2b972dbc0559551878526358759921f",
+   "bytes": 4455
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E04/e04_single_link_poincare.py",
+   "sha256": "50038b1c2846ea79d5eeb0c978e1c452c574b745b105a88b1c5909df7d1c5c92",
+   "bytes": 3617
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E04/failed_runs/NONE.md",
+   "sha256": "c5ff1ae2c900e5272f7256f11851e988ba23c197253d41c53b5ac1d1a438d540",
+   "bytes": 624
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E04/outputs/SHA256SUMS.txt",
+   "sha256": "b22ffa12259dee3f3741fa4019ea78737041913fbf36a6fdc49c417528be68ff",
+   "bytes": 261
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E04/outputs/e04_results.json",
+   "sha256": "eb127b00dcbc5550c5ae9748bf7a14ee3c709018d7fe62ae631b2e74ca19df48",
+   "bytes": 3288
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/experiments/INV001-E04/outputs/e04_stdout.txt",
+   "sha256": "f7a8e4fcb6f191f8c2012ce541811f91fe3cdbee183528feefd188eeb70d7666",
+   "bytes": 1756
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/failed-approaches/computational_failures/INV001-CF01_mpmath_3D_quadrature.md",
+   "sha256": "bf9c3e9edee2699b6d3ab8f5ec4c287e5b3b87aed9ebe302f77aa3d856779287",
+   "bytes": 1333
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/failed-approaches/computational_failures/INV001-CF02_scipy_mathieu_large_q.md",
+   "sha256": "364984ce17745ffdb2aa522c4cbb23dc173ba202405eeb4464a091e6811a4503",
+   "bytes": 1369
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/failed-approaches/failed_proofs/INV001-FP01_lattice_unit_gap_transfer.md",
+   "sha256": "32e7a11ab1a1590a8a1f0b64f17286b3baae9f316b86b4b34f867f911a34476c",
+   "bytes": 1610
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/failed-approaches/failed_proofs/INV001-FP02_full_sector_finite_volume_gap.md",
+   "sha256": "2a1c05e5189aaf3b34035d30972c85ff3bfe645b1b63033cf44f4a62cf719743",
+   "bytes": 1362
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/hypotheses/INV001-H01_ratio_liminf.md",
+   "sha256": "47d71d9e94e5eb490266236dba3443bddf8fb8a0d716adae4922f641745f4166",
+   "bytes": 1389
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/hypotheses/INV001-H02_local_sector_uniformity.md",
+   "sha256": "e1683b69ca5305452fadaa394aa44cc1616c0c888d49c5b5580d1abdd9a05935",
+   "bytes": 1275
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/hypotheses/INV001-H03_crossover_clustering.md",
+   "sha256": "d411ebe58c695c3348b03b885d457bda6036b2e97da24894d233d28a5a94a88a",
+   "bytes": 1282
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/04-INV-001-lattice-to-continuum-gap/submission-packet-A-I-v1.md",
+   "sha256": "e0368cb14cef25bd13e113c82a8e64984768f7b3f36efbe88ecd40685dc846c7",
+   "bytes": 15823
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/LATTICE_initial_baseline.md",
+   "sha256": "6da460382fcf40c98b1a9417c9bc8a83aad97a84dffd3dc70e3dff51bceea1d5",
+   "bytes": 46197
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/README.md",
+   "sha256": "5fd1db6aadf55adf047157bdc57a5be95872f3e6fa2980988c3ccda1b2b6332e",
+   "bytes": 2328
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/adversarial_reviews/QL-20261121-01-INV001-review_v1.md",
+   "sha256": "943b66ba79dfe9cf997131c3413bea86cecd61b2eab20e23d9747aee3d6912c3",
+   "bytes": 16792
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/adversarial_reviews/README.md",
+   "sha256": "f6d1f7408c73826d13fd3de83420b7bc376593a00d26680d824606739794aff6",
+   "bytes": 1255
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/checkin_2026-11-21.md",
+   "sha256": "6fe16c7f66226b46b0a8b5cf883f44031e23f0f2574a575512519770e66f9197",
+   "bytes": 13381
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/code_reviews/2026-artifacts_vintage_and_umpolungfish.md",
+   "sha256": "07e294b5efb457bdb7ee7ab62afe12f61facb2e0564f932163014ae9be4a64cc",
+   "bytes": 5206
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/code_reviews/README.md",
+   "sha256": "acd912fc8d11beed0c63fe3448a9a05e14efdaed9c7b6d0fdf8c5b719ef4de3f",
+   "bytes": 1253
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/counterexamples/README.md",
+   "sha256": "644736053c392333200239032f85565afab6efef7b3d434e1cbd5e53da08e4ab",
+   "bytes": 1679
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/independent_derivations/README.md",
+   "sha256": "ed9cda83e3103ff05b4586ef47ac4f544cf68f9e611978dfa69054b65995763b",
+   "bytes": 2111
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/innovation_proposals/README.md",
+   "sha256": "17fea8475eb8e9957b74fe2c20b33c7354f3c681d0d50e18ec624270f93f1447",
+   "bytes": 1233
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/innovation_proposals/innovation_register.md",
+   "sha256": "92d16020bceee5c5ca9a648f8f73787e10590a80199b41fbb5154b462d848cf0",
+   "bytes": 2902
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/proof_audits/README.md",
+   "sha256": "f3be790f298adbbe1d72fa5d6eccdfeb695448d72380990b83222131ec09e0da",
+   "bytes": 1400
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/verdicts/README.md",
+   "sha256": "56b83e9ae05553a60e73646b8af48c8adc256dea3cb3af857331cdda2e23ec52",
+   "bytes": 1605
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/06-session-logs/2026-11-21-S01-A.md",
+   "sha256": "cdaf76f94602d520d7cc69dd2442c1f872308888cfc2916e3d19845360de9d5f",
+   "bytes": 2629
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/06-session-logs/2026-11-21-S01-B.md",
+   "sha256": "3788946497edf5904b713ca9b7f4c9eee27676172eaf726c26e4fc7e9795f973",
+   "bytes": 2376
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/06-session-logs/2026-11-21-S02-publication.md",
+   "sha256": "8e83073430c5ad12e88708cded0be79523e4edf4dc8e5cc8bcc83f78de55d497",
+   "bytes": 2120
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/06-session-logs/README.md",
+   "sha256": "7e9ab5f999d9acfc166fa88b7a2b09951d3ce3579dc748bfd237cbcedb00356f",
+   "bytes": 1355
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/06-session-logs/evolution_log.md",
+   "sha256": "55b953270489994e9f686068fb9b9655f5211080aa5d0dee9ebd691b2945a684",
+   "bytes": 1518
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/CHRONOLOGY.md",
+   "sha256": "4c6059e03fe1e6660cf242f41129d46406d4aa7d483edc7f5cc830fc02a87ecd",
+   "bytes": 2187
+  },
+  {
+   "path": "programs/QL-20261121-01-yang-mills-mass-gap/README.md",
+   "sha256": "03bde148c0823d69c7ab86e847db2f6e4c4a5c3e4aa97acba68c4f906317ed5b",
+   "bytes": 6671
+  }
+ ]
+}

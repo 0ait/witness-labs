@@ -1,0 +1,42 @@
+g2=8.000 gap(jmax=64)=12.007288822406 galerkin=12.007288822406 mathieu=12.007288822406052
+g2=4.000 gap(jmax=64)=6.057972654204 galerkin=6.057972654204 mathieu=6.057972654203661
+g2=2.000 gap(jmax=64)=3.426288565734 galerkin=3.426288565734 mathieu=3.4262885657340387
+g2=1.000 gap(jmax=64)=3.269099185521 galerkin=3.269099185521 mathieu=3.2690991855209104
+g2=0.500 gap(jmax=64)=3.663550052481 galerkin=3.663550052481 mathieu=3.6635500524806863
+g2=0.250 gap(jmax=64)=3.838313950841 galerkin=3.838313950841 mathieu=3.838313950841057
+g2=0.100 gap(jmax=64)=3.936673438305 galerkin=3.936673438305 mathieu=3.9366734383053483
+g2=0.050 gap(jmax=64)=3.968546650102 galerkin=3.968546650102 mathieu=-45.56077889576346
+ladder check {'n': 3, 'h': 1.0, 'J': 0.5, 'phys_dim': 16, 'gaugeinv_dim': 16, 'maxdiff': 3.552713678800501e-15}
+ladder check {'n': 3, 'h': 1.0, 'J': 2.0, 'phys_dim': 16, 'gaugeinv_dim': 16, 'maxdiff': 7.105427357601002e-15}
+ladder check {'n': 3, 'h': 0.3, 'J': 1.0, 'phys_dim': 16, 'gaugeinv_dim': 16, 'maxdiff': 2.4424906541753444e-15}
+ladder check {'n': 4, 'h': 1.0, 'J': 0.5, 'phys_dim': 32, 'gaugeinv_dim': 32, 'maxdiff': 1.7763568394002505e-15}
+ladder check {'n': 4, 'h': 1.0, 'J': 2.0, 'phys_dim': 32, 'gaugeinv_dim': 32, 'maxdiff': 2.6645352591003757e-15}
+ladder check {'n': 4, 'h': 0.3, 'J': 1.0, 'phys_dim': 32, 'gaugeinv_dim': 32, 'maxdiff': 5.551115123125783e-16}
+{'n': 4, 'h': 1.0, 'J': 0.25, 'E0': np.float64(-0.031239799404058192), 'local_gap': np.float64(7.9846058462916725), 'torelon_gap': np.float64(7.967299621332942), 'full_gap': np.float64(7.967299621332942), 'ground_in_w0': True, 'sec': 0.01}
+{'n': 6, 'h': 1.0, 'J': 0.25, 'E0': np.float64(-0.04685969909351673), 'local_gap': np.float64(7.984606366356447), 'torelon_gap': np.float64(11.9526790398141), 'full_gap': np.float64(7.984606366356447), 'ground_in_w0': True, 'sec': 0.0}
+{'n': 8, 'h': 1.0, 'J': 0.25, 'E0': np.float64(-0.062479598791355624), 'local_gap': np.float64(7.984606366359143), 'torelon_gap': np.float64(15.93698038405994), 'full_gap': np.float64(7.984606366359143), 'ground_in_w0': True, 'sec': 0.74}
+{'n': 10, 'h': 1.0, 'J': 0.25, 'E0': np.float64(-0.07809949848919641), 'local_gap': np.float64(7.9846063663591575), 'torelon_gap': np.float64(19.921229197924102), 'full_gap': np.float64(7.9846063663591575), 'ground_in_w0': True, 'sec': 0.04}
+{'n': 12, 'h': 1.0, 'J': 0.25, 'E0': np.float64(-0.09371939818702894), 'local_gap': np.float64(7.9846063663590785), 'torelon_gap': np.float64(23.905475234210353), 'full_gap': np.float64(7.9846063663590785), 'ground_in_w0': True, 'sec': 0.1}
+{'n': 14, 'h': 1.0, 'J': 0.25, 'E0': np.float64(-0.10933929788487698), 'local_gap': np.float64(7.984606366359134), 'torelon_gap': np.float64(27.88972111738546), 'full_gap': np.float64(7.984606366359134), 'ground_in_w0': True, 'sec': 0.45}
+{'n': 16, 'h': 1.0, 'J': 0.25, 'E0': np.float64(-0.12495919758269834), 'local_gap': np.float64(7.984606366359127), 'torelon_gap': np.float64(31.873966991906013), 'full_gap': np.float64(7.984606366359127), 'ground_in_w0': True, 'sec': 8.54}
+{'n': 4, 'h': 1.0, 'J': 1.0, 'E0': np.float64(-0.49728552195791786), 'local_gap': np.float64(7.800042536749469), 'torelon_gap': np.float64(7.271033662452412), 'full_gap': np.float64(7.271033662452412), 'ground_in_w0': True, 'sec': 0.0}
+{'n': 6, 'h': 1.0, 'J': 1.0, 'E0': np.float64(-0.7459276645223718), 'local_gap': np.float64(7.801153170467657), 'torelon_gap': np.float64(11.018521054209824), 'full_gap': np.float64(7.801153170467657), 'ground_in_w0': True, 'sec': 0.0}
+{'n': 8, 'h': 1.0, 'J': 1.0, 'E0': np.float64(-0.9945702191062625), 'local_gap': np.float64(7.801154400577695), 'torelon_gap': np.float64(14.742908428140238), 'full_gap': np.float64(7.801154400577695), 'ground_in_w0': True, 'sec': 0.57}
+{'n': 10, 'h': 1.0, 'J': 1.0, 'E0': np.float64(-1.243212773882709), 'local_gap': np.float64(7.801154401914096), 'torelon_gap': np.float64(18.458306330883413), 'full_gap': np.float64(7.801154401914096), 'ground_in_w0': True, 'sec': 0.01}
+{'n': 12, 'h': 1.0, 'J': 1.0, 'E0': np.float64(-1.491855328659229), 'local_gap': np.float64(7.801154401915502), 'torelon_gap': np.float64(22.169260177578472), 'full_gap': np.float64(7.801154401915502), 'ground_in_w0': True, 'sec': 0.07}
+{'n': 14, 'h': 1.0, 'J': 1.0, 'E0': np.float64(-1.740497883435779), 'local_gap': np.float64(7.801154401915526), 'torelon_gap': np.float64(25.877689342674746), 'full_gap': np.float64(7.801154401915526), 'ground_in_w0': True, 'sec': 0.32}
+{'n': 16, 'h': 1.0, 'J': 1.0, 'E0': np.float64(-1.9891404382123286), 'local_gap': np.float64(7.801154401915534), 'torelon_gap': np.float64(29.58454596345567), 'full_gap': np.float64(7.801154401915534), 'ground_in_w0': True, 'sec': 4.49}
+{'n': 4, 'h': 1.0, 'J': 2.0, 'E0': np.float64(-1.9522020038964345), 'local_gap': np.float64(7.577116110427696), 'torelon_gap': np.float64(5.409085183617009), 'full_gap': np.float64(5.409085183617009), 'ground_in_w0': True, 'sec': 0.0}
+{'n': 6, 'h': 1.0, 'J': 2.0, 'E0': np.float64(-2.9282384850175953), 'local_gap': np.float64(7.590907926203397), 'torelon_gap': np.float64(8.158849357810244), 'full_gap': np.float64(7.590907926203397), 'ground_in_w0': True, 'sec': 0.0}
+{'n': 8, 'h': 1.0, 'J': 2.0, 'E0': np.float64(-3.9043177132868765), 'local_gap': np.float64(7.591054323301078), 'torelon_gap': np.float64(10.88615324300632), 'full_gap': np.float64(7.591054323301078), 'ground_in_w0': True, 'sec': 0.75}
+{'n': 10, 'h': 1.0, 'J': 2.0, 'E0': np.float64(-4.8803971403528035), 'local_gap': np.float64(7.59105580761606), 'torelon_gap': np.float64(13.60918832165686), 'full_gap': np.float64(7.59105580761606), 'ground_in_w0': True, 'sec': 0.01}
+{'n': 12, 'h': 1.0, 'J': 2.0, 'E0': np.float64(-5.8564765684171), 'local_gap': np.float64(7.591055822382809), 'torelon_gap': np.float64(16.331338266369002), 'full_gap': np.float64(7.591055822382809), 'ground_in_w0': True, 'sec': 0.06}
+{'n': 14, 'h': 1.0, 'J': 2.0, 'E0': np.float64(-6.832555996486591), 'local_gap': np.float64(7.591055822528346), 'torelon_gap': np.float64(19.05329586398541), 'full_gap': np.float64(7.591055822528346), 'ground_in_w0': True, 'sec': 0.3}
+{'n': 16, 'h': 1.0, 'J': 2.0, 'E0': np.float64(-7.808635424556085), 'local_gap': np.float64(7.591055822529771), 'torelon_gap': np.float64(21.775210431861296), 'full_gap': np.float64(7.591055822529771), 'ground_in_w0': True, 'sec': 3.46}
+{'n': 4, 'h': 1.0, 'J': 4.0, 'E0': np.float64(-7.132035616914187), 'local_gap': np.float64(8.65913657673262), 'torelon_gap': np.float64(2.876274904629714), 'full_gap': np.float64(2.876274904629714), 'ground_in_w0': True, 'sec': 0.0}
+{'n': 6, 'h': 1.0, 'J': 4.0, 'E0': np.float64(-10.697223322573691), 'local_gap': np.float64(8.674447629324522), 'torelon_gap': np.float64(4.320500685456009), 'full_gap': np.float64(4.320500685456009), 'ground_in_w0': True, 'sec': 0.0}
+{'n': 8, 'h': 1.0, 'J': 4.0, 'E0': np.float64(-14.26295341000463), 'local_gap': np.float64(8.674972942401844), 'torelon_gap': np.float64(5.760956551078953), 'full_gap': np.float64(5.760956551078953), 'ground_in_w0': True, 'sec': 0.6}
+{'n': 10, 'h': 1.0, 'J': 4.0, 'E0': np.float64(-17.828691595617094), 'local_gap': np.float64(8.674989403622178), 'torelon_gap': np.float64(7.201210393356538), 'full_gap': np.float64(7.201210393356538), 'ground_in_w0': True, 'sec': 0.01}
+{'n': 12, 'h': 1.0, 'J': 4.0, 'E0': np.float64(-21.394429912047386), 'local_gap': np.float64(8.674989901833554), 'torelon_gap': np.float64(8.641453256140567), 'full_gap': np.float64(8.641453256140567), 'ground_in_w0': True, 'sec': 0.07}
+{'n': 14, 'h': 1.0, 'J': 4.0, 'E0': np.float64(-24.96016823067681), 'local_gap': np.float64(8.674989916658074), 'torelon_gap': np.float64(10.08169550867921), 'full_gap': np.float64(8.674989916658074), 'ground_in_w0': True, 'sec': 0.27}
+{'n': 16, 'h': 1.0, 'J': 4.0, 'E0': np.float64(-28.525906549344114), 'local_gap': np.float64(8.674989917095182), 'torelon_gap': np.float64(11.521937726637336), 'full_gap': np.float64(8.674989917095182), 'ground_in_w0': True, 'sec': 4.28}

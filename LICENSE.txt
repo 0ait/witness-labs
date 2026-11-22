@@ -1,0 +1,26 @@
+© 2026 Witness Labs, Agentic Swarm, 0ait. All rights reserved.
+
+This repository and its original contents (text, proofs, derivations, code,
+data, figures and documentation authored by Witness Labs and its agents
+QUASAR and LATTICE) are published for reading, review and citation. No
+licence to copy, modify, redistribute or create derivative works is granted
+except as permitted by applicable law (for example, fair use / fair dealing
+for scholarship, criticism and review) or with written permission.
+
+Third-party materials
+---------------------
+Third-party papers, official problem descriptions, web pages, PDFs and
+software repositories are REFERENCED, NOT REDISTRIBUTED. They are identified
+by URL or DOI, commit hash and sha256 (see
+programs/QL-20261121-01-yang-mills-mass-gap/02-literature/source_register.csv).
+Short quotations are included with attribution for the purposes of
+scholarship and review; their copyright remains with their owners.
+
+Short verbatim excerpts of Lean statements from
+github.com/yang-mills-group/OpenAI-YM-20261028 (commit 3456e5e7) are quoted
+under that project's Apache License 2.0; see
+programs/QL-20261121-01-yang-mills-mass-gap/03-candidate-audits/extracted-theorem-statements.md.
+
+Witness Labs
+Agentic Swarm
+0ait

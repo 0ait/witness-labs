@@ -1,0 +1,25 @@
+h=0.3 L= 4 split=4.900e-03 gap1=3.263706 |ED-FF| even 1.8e-15 odd 8.9e-16
+h=0.3 L= 6 split=3.459e-04 gap1=3.020953 |ED-FF| even 1.2e-14 odd 1.8e-15
+h=0.3 L= 8 split=2.644e-05 gap1=2.927585 |ED-FF| even 5.3e-15 odd 3.6e-15
+h=0.3 L=10 split=2.103e-06 gap1=2.882682 |ED-FF| even 7.1e-15 odd 1.2e-14
+h=0.3 L=12 split=1.715e-07 gap1=2.857816 |ED-FF| even 1.6e-14 odd 1.6e-14
+h=0.3 L=14 split=1.421e-08 gap1=2.842656 |ED-FF| even 7.1e-15 odd 1.1e-14
+h=0.3 L=16 split=1.192e-09 gap1=2.832748 |ED-FF| even 2.5e-14 odd 3.6e-15
+h=0.3 L=18 split=1.008e-10 gap1=2.825924 |ED-FF| even 2.1e-14 odd 3.6e-15
+h=0.5 L= 4 split=3.549e-02 gap1=2.947252 |ED-FF| even 8.9e-16 odd 0.0e+00
+h=0.5 L= 6 split=6.892e-03 gap1=2.478627 |ED-FF| even 5.3e-15 odd 8.9e-16
+h=0.5 L= 8 split=1.456e-03 gap1=2.284278 |ED-FF| even 2.1e-14 odd 1.4e-14
+h=0.5 L=10 split=3.207e-04 gap1=2.187029 |ED-FF| even 0.0e+00 odd 1.2e-14
+h=0.5 L=12 split=7.247e-05 gap1=2.131944 |ED-FF| even 8.9e-15 odd 3.6e-15
+h=0.5 L=14 split=1.665e-05 gap1=2.097893 |ED-FF| even 4.8e-14 odd 1.4e-14
+h=0.5 L=16 split=3.874e-06 gap1=2.075436 |ED-FF| even 1.1e-14 odd 5.0e-14
+h=0.5 L=18 split=9.092e-07 gap1=2.059873 |ED-FF| even 0.0e+00 odd 0.0e+00
+h=0.7 L= 4 split=1.225e-01 gap1=2.828570 |ED-FF| even 0.0e+00 odd 1.8e-15
+h=0.7 L= 6 split=4.545e-02 gap1=2.107375 |ED-FF| even 1.8e-15 odd 1.8e-15
+h=0.7 L= 8 split=1.857e-02 gap1=1.773443 |ED-FF| even 0.0e+00 odd 1.8e-15
+h=0.7 L=10 split=7.952e-03 gap1=1.592587 |ED-FF| even 2.1e-14 odd 7.1e-15
+h=0.7 L=12 split=3.502e-03 gap1=1.484339 |ED-FF| even 2.3e-14 odd 1.1e-14
+h=0.7 L=14 split=1.571e-03 gap1=1.414784 |ED-FF| even 0.0e+00 odd 5.3e-15
+h=0.7 L=16 split=7.139e-04 gap1=1.367629 |ED-FF| even 0.0e+00 odd 1.1e-14
+h=0.7 L=18 split=3.276e-04 gap1=1.334281 |ED-FF| even 1.4e-14 odd 1.4e-14
+{'0.3': {'slope': np.float64(-1.247223719703809), 'log_J_over_h': np.float64(-1.2039728043259361)}, '0.5': {'slope': np.float64(-0.7373223629293317), 'log_J_over_h': np.float64(-0.6931471805599453)}, '0.7': {'slope': np.float64(-0.4031473801744151), 'log_J_over_h': np.float64(-0.3566749439387324)}}
