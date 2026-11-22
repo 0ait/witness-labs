@@ -1,0 +1,13 @@
+Wilson beta_W threshold: N**2/(16*(d - 1)) | d=4: N**2/48
+ SU(2): beta_W < 1/12 = 0.08333;  g^2 > 48 
+ SU(3): beta_W < 3/16 = 0.18750;  g^2 > 32 
+ (2/g^2) Re Tr(1-V)  [Wilson-normalised, beta_W=2N/g^2]: SU(2) gamma=1/10: beta_eff=40 ratio=480 (~480x)
+ (2/g^2) Re Tr(1-V)  [Wilson-normalised, beta_W=2N/g^2]: SU(2) gamma=1/20: beta_eff=80 ratio=960 (~960x)
+ (1/g^2) Re Tr(1-V)  [as written in R1-D04 s.2]: SU(2) gamma=1/10: beta_eff=20 ratio=240 (~240x)
+ (1/g^2) Re Tr(1-V)  [as written in R1-D04 s.2]: SU(2) gamma=1/20: beta_eff=40 ratio=480 (~480x)
+SU(2) b0=0.04643887584  dk*/dbeta (1-loop,b=2)=3.8833171  d(1/g^2) per b=2 step=0.064377952
+  gamma=0.1: 1-loop steps to pole=155.333; last-controlled coupling >= 0.099360338 (rel 0.006397); heuristic m_gamma ~ exp(-1/(2 b0 gamma)) = 1.739e-47; 1-loop steps gamma -> g^2=1.739 (beta_W=2.3): 146.401
+  gamma=0.05: 1-loop steps to pole=310.665; last-controlled coupling >= 0.049839572 (rel 0.003209); heuristic m_gamma ~ exp(-1/(2 b0 gamma)) = 3.023e-94; 1-loop steps gamma -> g^2=1.739 (beta_W=2.3): 301.734
+SU(3) b0=0.06965831375  dk*/dbeta (1-loop,b=2)=1.7259187  d(1/g^2) per b=2 step=0.096566928
+  gamma=0.1: 1-loop steps to pole=103.555; last-controlled coupling >= 0.099043567 (rel 0.009564); heuristic m_gamma ~ exp(-1/(2 b0 gamma)) = 6.711e-32
+  gamma=0.05: 1-loop steps to pole=207.11; last-controlled coupling >= 0.049759743 (rel 0.004805); heuristic m_gamma ~ exp(-1/(2 b0 gamma)) = 4.504e-63

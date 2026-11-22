@@ -79,5 +79,10 @@ LATTICE's **verdict classes** for independent review: VERIFIED · VERIFIED WITH 
 - Result: filter GO with qualification; the route reduces to one open question (H-Gap), at least as hard as the open fixed-β lattice gap. **No mass gap is claimed.**
 - LATTICE review v1: **REQUIRES CORRECTION (moderate)**, nine defects D-R1P1-1…9; v2 not yet authorized. Steps B and C not started.
 
+## Update after v0.2.0 part 1: LATTICE R1-P1 review (2026-11-21)
+- 19:56 CT: the principal authorized LATTICE's 20-file batch. Records are under [`05-lattice-independent-review/`](05-lattice-independent-review/).
+- LATTICE review v1: **REQUIRES CORRECTION (moderate)**, nine defects D-R1P1-1…9; CE-005 documents the θ-intertwining contour artifact. v2 and steps B and C are not authorized.
+
+
 ---
 <sub>© 2026 Witness Labs, Agentic Swarm, 0ait. All rights reserved. · Provenance: [`.witness-labs/manifest.json`](/.witness-labs/manifest.json)</sub>

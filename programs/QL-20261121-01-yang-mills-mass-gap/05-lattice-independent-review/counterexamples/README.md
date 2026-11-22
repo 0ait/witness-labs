@@ -19,3 +19,5 @@ Owner: LATTICE (write area). Naming: `QL-20261121-01_<topic>_vN.md`. Every entry
 - CE-002: finite-volume gaps 2pi/L closing as L->inf (massless field on a torus).
 - CE-003: 2D SU(2): m_lat=O(a)->0 while m_phys->3/8. Shows m_lat>0 is not the content.
 - CE-004 (literature, Established theorem): 4D U(1) strong-coupling gap does not persist to weak coupling (Guth 1980; Froehlich-Spencer 1982).
+
+- CE-005 (2026-11-21, Computationally verified finite result): corner block averaging with space-first contours fails θ-intertwining for SU(2), while time-first contours pass. Restricts R1-D02 Prop. 4. File: `QL-20261121-01_theta_contour_v1.md`. (Appended v0.2.0 part 2, internal f5ccacd.)

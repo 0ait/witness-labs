@@ -23,5 +23,19 @@ All files in this folder (other than this index) are **LATTICE's own records, co
 
 LATTICE's second-implementation scripts and its separate review repository are not part of this release (they were not in the approved v0.1.0 scope); the check-in proposes them for a later batch.
 
+## Added in v0.2.0 part 2 (2026-11-21)
+Approved by the principal (19:56 CT, "Yes, LATTICE may push its 20-file review batch"). The v0.1.0 table above is unchanged. New or appended records, from internal commit f5ccacd:
+
+| File | Contents |
+|---|---|
+| [`adversarial_reviews/QL-20261121-01-R1-P1-review_v1.md`](adversarial_reviews/QL-20261121-01-R1-P1-review_v1.md) | R1-P1 review v1: REQUIRES CORRECTION (moderate), defects D-R1P1-1…9. One role title written "principal". |
+| [`counterexamples/QL-20261121-01_theta_contour_v1.md`](counterexamples/QL-20261121-01_theta_contour_v1.md) | CE-005: corner-map θ failure is a contour artifact |
+| [`code_reviews/R1-P1/`](code_reviews/R1-P1/) | 14 second-implementation files (θ tests, Monte Carlo spot-check, SZZ conversion, Crossref) |
+| [`independent_derivations/R1-P1-01_formulation.md`](independent_derivations/R1-P1-01_formulation.md) | Blind formulation, written before reading QUASAR's C–I sections |
+| [`independent_derivations/R1-P1-02_reconstruction.md`](independent_derivations/R1-P1-02_reconstruction.md) | Independent reconstruction of the R1-P1 arguments |
+| [`innovation_proposals/innovation_register.md`](innovation_proposals/innovation_register.md) | Rows L-12…L-15 appended; L-01…L-11 unchanged |
+| [`counterexamples/README.md`](counterexamples/README.md) | CE-005 entry appended |
+
+
 ---
 <sub>© 2026 Witness Labs, Agentic Swarm, 0ait. All rights reserved. · Provenance: [`.witness-labs/manifest.json`](/.witness-labs/manifest.json)</sub>

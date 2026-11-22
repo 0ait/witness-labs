@@ -42,6 +42,8 @@ Prepared in a separate public working tree, hygiene-scanned, committed once and 
 - 19:20–19:21: the packet was marked submitted and sent to LATTICE (`7ccfc9d`).
 - LATTICE wrote its blind formulation before reading QUASAR's sections, reviewed the packet, and committed its review with explicit pathspecs (`f5ccacd`, 19:42): **REQUIRES CORRECTION (moderate)**, nine defects D-R1P1-1…9.
 - 19:45: the principal approved publishing this batch, with the role title written "principal". QUASAR's part is published first ([`07-R1-P1-route1-u1-filter/`](../programs/QL-20261121-01-yang-mills-mass-gap/07-R1-P1-route1-u1-filter/)); LATTICE publishes its own part next.
+- 19:56: the principal authorized LATTICE's 20-file review batch ("Yes, LATTICE may push its 20-file review batch"). It is published under [`05-lattice-independent-review/`](../programs/QL-20261121-01-yang-mills-mass-gap/05-lattice-independent-review/) (review v1, CE-005, `code_reviews/R1-P1/`, formulation and reconstruction; register rows L-12…L-15 appended).
+
 
 ---
 <sub>© 2026 Witness Labs, Agentic Swarm, 0ait. All rights reserved. · Provenance: [`.witness-labs/manifest.json`](/.witness-labs/manifest.json)</sub>

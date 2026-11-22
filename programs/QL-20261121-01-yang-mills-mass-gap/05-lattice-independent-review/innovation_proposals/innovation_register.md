@@ -25,3 +25,9 @@ All entries: status PROPOSAL (untested). Details: LATTICE_initial_baseline.md se
 | L-09 | Pin a Lean MassGap target on the 2026 WightmanTheory | High | Elaborate predicate in pinned env | — (infrastructure) | PROPOSAL | 2026-11-21 |
 | L-10 | G₂ / trivial-centre filter for every mechanism | High (filter) | Centre-dependence table | Mechanism needs centre | PROPOSAL | 2026-11-21 |
 | L-11 | IR uniqueness via Langevin contraction at crossover | Medium | Contraction rate of block Langevin at g_eff~1 | No contraction | PROPOSAL | 2026-11-21 |
+| L-12 | Interval-arithmetic MK/character-expansion calibration of the γ→strong-coupling window, U(1) as control | High | SU(2) & U(1) MK recursion, d=4, b=2, Arb balls, g²=0.1 → β_W<1/12 | Enclosures blow up, or U(1) also flows to strong coupling | PROPOSAL | 2026-11-21 |
+| L-13 | Multiscale Bakry–Émery along a Polchinski-type flow (refines L-02), with U(1) negative control | Med-High | Convexity margin of renormalised one-plaquette potential vs covariance increment, SU(2) vs U(1) | Margins degrade identically, or need g² ≳ 48 | PROPOSAL | 2026-11-21 |
+| L-14 | H-Gap on the RG-orbit closure {ν_β} + stability lemma, instead of uniform over 𝒜_γ | Medium | Derivation: what local convergence ν_β→ν_∞ plus clustering of ν_∞ must add to give X | No stability possible at m_γ ~ 1e−47 | PROPOSAL | 2026-11-21 |
+| L-15 | Higher-form-symmetry admissibility filter for H-Gap inputs (photon = 1-form Goldstone) | Low-Med | Extract a lattice order parameter for emergent U(1)^(1) breaking; check that SU(N) cannot carry it at the exit scale | Only necessary, no converse | PROPOSAL | 2026-11-21 |
+
+<!-- Rows L-12–L-15 appended 2026-11-21 (v0.2.0 part 2; internal f5ccacd). Earlier rows and the original header are unchanged. -->
